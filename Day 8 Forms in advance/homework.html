@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Health Details Form</h1>
+    <!-- personal information -->
+     <fieldset>
+        <legend>Personal Information</legend>
+    <form>
+        <label for="fname">Full Name:</label>
+        <input type="text" id="fname" name="fname">
+        <br><br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="datetime" id="DOB" name="DOB">
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <select name="Gender" >
+            <option value="Male">Male
+            <option value="Female">Female
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <label for="Phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone">
+    </form>
+</fieldset>
+
+         <!-- Medical History -->
+          <fieldset>
+            <legend>Medical History</legend>
+          <label for="Blood Group">Blood Group:</label>
+          <select name="Blood Group" id="Blood Group">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+          </select>
+
+          <br><br>
+          <label for="Lenses">Do you wear glassses or contact lenses?</label>
+
+          <br>
+          <input type="radio" id="Lense" name="Lense" value="Yes">
+          <label for="Yes">Yes</label>
+          <br>
+          <input type="radio" id="Lense" name="Lense" value="No">
+          <label for="No">No</label>
+          <br><br>
+          <label for="conditions"><b>Pre-existing Conditions:</b></label><br>
+          <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+
+          <br><br>
+          <label for="Allergies">Allergies:</label><br>
+        
+          <input type="checkbox" id="Allergies" name="Allergies" value="Pollen">
+          <label for="Pollen">Pollen</label><br>
+          <input type="checkbox" id="Allergies" name="Allergies" value="Pollen">
+          <label for="Peanuts">Peanuts</label><br>
+          <input type="checkbox" id="Allergies" name="Allergies" value="Pollen">
+          <label for="PLatex">Latex</label><br>
+          <input type="checkbox" id="Allergies" name="Allergies" value="Pollen">
+          <label for="Pollen">None</label>
+
+          <br><br>
+          <label for="Medicines"><b>Current Medications:</b></label><br>
+          <textarea name="Medicines" id="Medicines" rows="4" cols="50"></textarea>
+          </fieldset>
+
+          <!-- Emergency Contact -->
+           <fieldset>
+            <form>
+                <label for="Emergency">Emergency Contact Name</label>
+                <input type="text" id="Emergency" name="Emergency">
+
+                <br><br>
+                <label for="Phone">Emergency Contact Phone</label>
+                <input type="number" id="Emergency" name="Phone">
+                <br><br>
+                <label for="Emergency">Relation to Emergency Contact Name</label>
+                <input type="number" id="Emergency" name="Emergency">
+            </form>
+           </fieldset>
+           <br><br>
+           <button>Submit</button>
+</body>
+</html>
