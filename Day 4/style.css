@@ -1,0 +1,30 @@
+h1{
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: brown; */
+    border-radius: 20px;
+    /* short hand notation */
+    border: 6px brown solid;
+    margin: 50px 20px 30px 0px;
+    /* padding: 50px; */
+    padding-left: 20px;
+    margin: 50px 10px 50px 0px;
+    box-sizing: border-box;
+
+}
+ul{
+    background-color: beige;
+}
+h2{
+    background-color: rgb(117, 117, 165);
+    border-left-width: 10px;
+    border-color: green;
+    /* border-left-style: solid; */
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 10px 30px 30px;
+
+}
