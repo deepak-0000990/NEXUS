@@ -1,0 +1,28 @@
+.first {
+    display: inline;
+    background-color: orange;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.second {
+    /* display: inline; */
+    background-color: chocolate;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+span{
+    display: block;
+    background-color: pink;
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+}
+
+/* blocklevel element mein 
+height,width,margin use ho sakta he */
+
+/* Inline element mein height,width,
+use nahin kar sakta he,margin sirf horizontal mein work karta he  */

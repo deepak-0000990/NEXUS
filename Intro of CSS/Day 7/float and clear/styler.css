@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+.img1{
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+.img2{
+    height: 400px;
+    width: 300px;
+    float:right;
+    clear: right;
+    
+}
+button{
+    background-color: beige;
+    color: white;
+}
+button:hover{
+    background-color: red;
+}

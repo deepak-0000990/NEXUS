@@ -1,0 +1,26 @@
+/* Universal selector */
+/* puri website ko background color change karta he  */
+/* *{
+    background-color: darkorchid;
+    color: #ffe4c4;
+} */
+
+/* Group selector */
+/* h1,h2,#third{
+    background-color: aqua;
+} */
+
+
+/* select by attribute */
+/* h2[draggable="true"]{
+    background-color: blueviolet;
+} */
+
+/* Select by child */
+/* section >p{
+    background-color: aqua;
+} */
+
+#header.main{
+    color: aqua;
+}

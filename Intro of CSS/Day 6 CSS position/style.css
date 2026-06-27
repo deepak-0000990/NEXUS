@@ -1,0 +1,13 @@
+.container{
+    background-color:orange;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
+}
+.box{
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}

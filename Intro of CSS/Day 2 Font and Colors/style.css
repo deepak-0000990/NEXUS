@@ -1,0 +1,15 @@
+h1{
+    color: rgb(114, 162, 153);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-size: 10em;
+    font-size: 10rem;
+}
+h3{
+    color: blue;
+}
+body{
+    /* background-image: url(./pexels-ferarcosn-190819.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

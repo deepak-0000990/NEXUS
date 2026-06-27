@@ -1,0 +1,46 @@
+.box{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+.container{
+    background-color:blue;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: fit-content;
+    padding: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover{
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.45);
+    transform: translateY(-5px);
+}
+.box1{
+    background-color: blueviolet;
+    position: relative;
+    left: 250px;
+    z-index: 90;
+
+}
+
+/* default z-index is auto */
+
+.box2{
+    background-color: brown;
+    position: relative;
+    left: 20px;
+    z-index: 78;
+    top: 20px;
+}
+
+.box3{
+    background-color: darkgrey;
+    position: relative;
+    left: 90px;
+}
+
+.box4{
+    background-color: green;
+}
